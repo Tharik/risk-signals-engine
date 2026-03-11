@@ -1,0 +1,27 @@
+{
+  "tool": "rse",
+  "version": "0.0.1",
+  "generatedAtUtc": "2026-02-24T19:39:55.788108Z",
+  "input": {
+    "path": "examples/expenses.csv",
+    "rows": 4,
+    "columns": 3,
+    "numericColumns": [
+      "Id",
+      "Amount"
+    ]
+  },
+  "finalScore": 0.16000000000000003,
+  "signals": [
+    {
+      "SignalId": "benford.first_digit",
+      "SignalScore": 0.2,
+      "Confidence": 0.8,
+      "Severity": 0,
+      "Explanation": "Benford check executed (stub implementation).",
+      "Evidence": {
+        "rows": 4
+      }
+    }
+  ]
+}
